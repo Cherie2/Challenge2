@@ -6,16 +6,15 @@
   }
 
    body {
-    width: 100%;
     margin:0; 
    }
 
    header {
-    margin: 1rem;  
+    margin: 1;  
+    width:100%;
     display: flex;
     align-items: center;
     border: solid .2rem var(--light);
-    width: 100%;
     font-family: 'lucida-sans', 'sans-serif';
     background: var(--background);
     border-radius: 2rem;
@@ -27,14 +26,15 @@
     font-style: italic;
     color: var(--light);
     width: 25%;
+    margin-left: 1rem;
   }
 
    nav {
     font-family: sans-serif;
-    font-size: 36px;
+    font-size: 3rem;
     font-weight: bold;
     color: var(--light);
-    margin-left: 25%;
+    margin-left: 15%;
     display: flex;
     list-style-type: none;
   }
@@ -62,26 +62,27 @@
   } 
 
   p {
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: var(--light);
   }
 
   main {
     display:flex;
-    margin: 0;
-    width:100%;
+    justify-content: center;
+    margin: 2rem 2rem;
   }
 
   article {
     display: flex;
     flex-wrap: wrap;
     align-content:flex-start;
+    justify-content: center;
   }
 
   .row {
     flex-flow: row;
     display: inline;
-    margin: 1rem;
+    margin:1rem;
     font-size: 1.7rem;
     color: var(--light);
     border: .4rem solid var(--light);
@@ -89,7 +90,7 @@
     border-radius: 2rem;
     transition: all 0.5s ease-in-out;
   }
-  
+  /*allows row class to receive outline effect when hovering over section*/
   .row:hover {
       box-shadow: inset 0px 0px 4rem rgba(143, 191, 195, 0.887), 0 0 4rem rgb(143, 191, 195);
     }
@@ -106,11 +107,24 @@
     margin-right: 13rem;
     text-decoration: underline;
   }
-  
+  /* Ids allow me to style items in flexbox individually*/
   #About-Me{
     height: 50rem;
     width: 97rem;
     background: var(--background);
+  }
+
+  #About-Me p{
+      padding:1rem 2rem;
+      line-height: 1.5;
+  }
+  #About-Me ul li{
+    margin-left:10rem;
+    text-align: center;
+    display:block;
+    text-decoration: none;
+    line-height: 2;
+    font-size:2rem;
   }
   #Projects img{
     height: 50rem;
@@ -122,6 +136,7 @@
     justify-items: space-evenly;
     background: var(--dark);
   }
+  /*allows images to zoom in when hovered on*/
   .thumbnail { 
       top:-5rem; 
       left:1.3rem; 
@@ -153,9 +168,9 @@
     border-radius: 2rem;
   }
 
-  .aside{
+  .aside {
     margin: 1rem 1rem;
-    height:160rem;
+    height:158rem;
     max-width:25%;
     font-size: 1.7rem;
     color: var(--light);
@@ -174,7 +189,7 @@
     text-align: center;
     font-size: 2.5rem;
     text-decoration:dotted;
-    margin-bottom:19rem;
+    margin-bottom:13rem;
     line-height: 3rem;
   }
 
@@ -188,25 +203,93 @@
   }
 
   h3 {
-    position: relative;
-    margin-top: -1rem;
     border: .1rem solid var(--light);
     background-color: teal;
     font-size: 2rem;
     text-align: center;
-    margin-bottom: 0;
     border-radius: 2rem;
    } 
+
+   .below{
+    margin-bottom: 96rem;
+   }
+
+  .top{
+    position: relative;
+    margin-top: -1rem;
+   }
 
    footer {
     display: flex;
     justify-content: center;
     color:white;
-  }
+  } 
 
-  @media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-   .header,  .main, .aside {
-      width: 100%;
+  @media screen and (max-width:1023px) {
+    main { 
+      flex-wrap: wrap; 
+    }
+    main:first-child { 
+      flex-basis: 100%;
+    }
+    header { 
+      width: 100rem; 
+    }
+    nav {
+      font-size:2.5rem; 
+      margin-left:1rem; 
+    }
+    aside {
+      display:none;
+    }
+    article {
+      margin-left: 52rem;
+    }
+    footer {
+      width: 50rem;
+      margin-left: 24rem;
+    }
+  }
+  @media screen and (width:540px) {
+    main {
+      margin-right:17rem;
+    }
+  }
+  @media screen and (max-width: 620px) { 
+    main {
+      margin-left:24rem;
+    }
+  }
+  @media screen and (min-width:820px) {
+    main {
+      margin-right: 4.5rem;
+    }
+  }
+  @media screen and (width:912px) {
+    main {
+      margin-right:10.5rem;
+    }
+  }
+  @media screen and (width:1024px) {
+    header { width: 100rem; 
+    }
+    article {
+      margin-left: 22rem;
+    }
+    footer {
+      width: 50rem;
+      margin-left: 24rem;
+    }
+  }
+  @media screen and (width:1280px) {
+    article {
+      margin-left: 2rem;
+    }
+    article {
+      margin-left: 22rem;
+    }
+    footer {
+      width: 50rem;
+      margin-left: 24rem;
     }
   }
