@@ -5,9 +5,9 @@
   --border-color: teal;
   }
 
-   body {
+  body {
     margin:0; 
-   }
+  }
 
    header {
     margin: 1;  
@@ -18,7 +18,7 @@
     font-family: 'lucida-sans', 'sans-serif';
     background: var(--background);
     border-radius: 2rem;
-   }
+  }
 
    h1{
     font-size: 4rem;
@@ -136,7 +136,6 @@
     border-radius: 2rem;
   }
   #About-Me ul li{
-    padding:0;
     margin-left:10rem;
     text-align: center;
     display:block;
@@ -288,96 +287,98 @@
       font-size: 1.5rem;
     }
   }
-
+  /*For tablets*/
  @media screen and (max-width:820px) {
-  h1{
-    font-size: 2rem;
-  }
-  h2 {
-    font-size: 1.5rem;
-  }
-   nav {
-    font-size:1.5rem;
-  }
-  .row ul li {
-    margin-right:1rem;
-    font-size: 1.2rem;
-  }
-  #About-Me p {
-    font-size: 1.2rem;
-  }
-  #About-Me ul li {
-    font-size: 1.2rem;
-    margin:0;
-    padding:0;
-  }
-  ul {
-    margin: 0;
-    padding:0;
+    h1{
+      font-size: 2rem;
     }
-  .top {
-    font-size: 1.5rem;
+    h2 {
+      font-size: 1.5rem;
+    }
+    nav {
+      font-size:1.5rem;
+    }
+    .row ul li {
+      margin-right:1rem;
+      font-size: 1.2rem;
+    }
+    #About-Me p {
+      font-size: 1.2rem;
+    }
+    #About-Me ul li {
+      font-size: 1.2rem;
+      margin:0;
+      padding:0;
+    }
+    ul {
+      margin: 0;
+      padding:0;
+    }
+    .top {
+      font-size: 1.5rem;
+    }
+    aside p {
+      font-size: 1.5rem;
+    }
   }
-  aside p {
-  font-size: 1.5rem;
-  }
- }
+ /*For mobile phones*/
  @media screen and (max-width:557px) {
-  hr {
-    display:none;
-  }
-  nav{
-    display:block;
-  }
-  h1 {
-    width: 40%;
-    margin-left: 0;
-  }
-  header {
-  display: flex;
-  flex-direction: column;
-  text-align:center;
-  }
-  main {
-    margin:1rem 1rem;
-  }
-  #About-Me ul li {
-    margin: 0;
-  }
-  h4{
-    font-size: 1rem;
-  }
- .aside img {
-  border-radius: 100px;
-  padding:1rem;
-  }
-  #Projects img {
-    height: 20rem;
-  }
-  #About-Me p {
-    font-size: 1rem;
-  }
-  #About-Me ul li {
-    font-size: 1rem;
-  }
-  .row img {
-    height: 18rem;}
-  ul {
-    display: block;
-    margin: 0;
-    padding:0;
-  }
-  .row ul li {
-    margin-right:1rem;
-    font-size: 1rem;
-  }
-  .below {
-    margin-bottom: 144rem;
-  }
-  .top {
-    font-size: 1rem;
+    hr {
+      display:none;
+    }
+    nav{
+      display:block;
+    }
+    h1 {
+      width: 40%;
+      margin-left: 0;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      text-align:center;
+    }
+    main {
+      margin:1rem 1rem;
+    }
+    #About-Me ul li {
+      margin: 0;
+    }
+    h4{
+      font-size: 1rem;
+    }
+    .aside img {
+      border-radius: 100px;
+      padding:1rem;
+    }
+    #Projects img {
+      height: 20rem;
+    }
+    #About-Me p {
+      font-size: 1rem;
+    }
+    #About-Me ul li {
+      font-size: 1rem;
+    }
+    .row img {
+      height: 18rem;
+    }
+    ul {
+      display: block;
+      margin: 0;
+      padding:0;
+    }
+    .row ul li {
+      margin-right:1rem;
+      font-size: 1rem;
+    }
+    .below {
+      margin-bottom: 144rem;
+    }
+    .top {
+      font-size: 1rem;
+    }
+    aside p {
+      font-size: 1rem;
+    }
  }
- aside p {
-  font-size: 1rem;
- }
-}
