@@ -56,7 +56,7 @@ Special thanks to Ileriayo Adebiyi https://github.com/Ileriayo/markdown-badges#t
 ## License
 
 Please refer to the repository for the LICENSE.md file.
-![MIT](https://shields.io//github/license/:user/:repo)
+![MIT](https://shields.io/github/license/:user/:repo)
 
 
 
