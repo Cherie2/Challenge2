@@ -7,7 +7,7 @@ The motivation for this project is to draft a portfolio utilizing some newly cul
 In order to create this web design and have it be appealing to the user both in function and aesthetically, there are many CSS elements required such as flexbox, CSS variables, and media queries. As a result of compiling this portfolio, I have learned the concept of responsive web design. 
 **There are a few placeholders for projects that are planned, but not quite underway. Those images will not have active links.
 
-![Portfolio Website](./assets/images/_C__Users_cwalk_bootcamp_Challenge2_index.html.png)
+![Portfolio Website](./assets/images/portfolioscreenshot.png)
 
 https://cherie2.github.io/Challenge2/
 
