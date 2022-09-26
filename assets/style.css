@@ -271,7 +271,8 @@
     }
   }
   @media screen and (width:1024px) {
-    header { width: 100rem; 
+    header { 
+      width: 100rem; 
     }
     article {
       margin-left: 22rem;
