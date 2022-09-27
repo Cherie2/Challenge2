@@ -39,7 +39,7 @@ In order to access this portfolio, you will only need to have access to a web br
 
 This portfolio can be used as a reference in incorporating specific CSS elements into a responsive web design. It also will allow potential employers the opportunity to see my progress as a web developer.
 
-https://cherie2.github.io/Challenge2/
+https://cherie2.github.io/Responsive-Web-Design-Portfolio/
 
 ## Credits
 
