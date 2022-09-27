@@ -9,7 +9,7 @@ In order to create this web design and have it be appealing to the user both in 
 
 ![Portfolio Website](./assets/images/portfolioscreenshot.png)
 
-https://cherie2.github.io/Challenge2/
+https://cherie2.github.io/Responsive-Web-Design-Portfolio/
 
 ## Tools Utilized
 
