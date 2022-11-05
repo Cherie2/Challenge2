@@ -9,7 +9,7 @@ In order to create this web design and have it be appealing to the user both in 
 
 ### Deployment Link
 
-https://cherie2.github.io/Responsive-Web-Design-Portfolio/
+https://cherie2.github.io/Cherie-Walker-Portfolio/
 
 ![Portfolio Website](assets/images/CherieWalkerPortfolio.gif)
 
